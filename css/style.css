@@ -285,15 +285,13 @@ body {
   flex-direction: column;
 }
 
-.main__design:nth-child(2n + 1) {
-  padding-top: 188px;
-}
-
 .main__design > img {
-  width: 544px;
-  height: 544px;
   width: 100%;
   border-radius: 12px;
+}
+
+.main__design:nth-child(2n + 1) {
+  padding-top: 188px;
 }
 
 .main__designInfo {
@@ -488,6 +486,34 @@ body {
 .footer__nav__socialmedia > svg {
   padding-right: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .header__container {
+    margin-left: 177px;
+  }
+  .banner {
+    margin: 0 3rem;
+  }
+
+  .subscriber {
+    margin-left: 177px;
+  }
+
+  .main {
+    margin: 200px 100px;
+  }
+
+  .main__designs {
+    display: flex;
+  }
+  .main__design > img {
+    width: 400px;
+  }
+
+  .main__design:nth-child(2n + 1) {
+    padding-top: 150px;
+  }
 }
 
 @media (max-width: 635px) {

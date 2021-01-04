@@ -639,7 +639,7 @@ body {
   }
 }
 
-@media (max-width: 1224px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .header__container {
     margin-left: 177px;
   }
